@@ -1,0 +1,36 @@
+.eri_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.eri_card > img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  transition: transform 0.3s ease;
+  border: 1px solid gray;
+}
+
+.eri_card:hover > img {
+  transform: scale(1.1);
+}
+
+.eri_cardData {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.eri_cardData > img {
+  border-radius: 50px;
+  margin: 5px 0;
+}

@@ -1,0 +1,15 @@
+.standardButton {
+  border: 1px solid var(--eri-color-background-secondary);
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--eri-color-background-secondary);
+  width: 100%;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+}
+
+.standardButton:hover {
+  border: 1px solid var(--eri-color-background-terciary);
+  background-color: var(--eri-color-background-terciary);
+}

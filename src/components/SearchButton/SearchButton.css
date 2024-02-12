@@ -1,0 +1,28 @@
+.searchbar {
+  height: 1rem;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0 20px 20px 0;
+}
+
+.searchbar:focus-visible {
+  outline: transparent;
+}
+.searchButton {
+  border: none;
+  border-right: 1px solid var(--eri-color-background-terciary);
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: var(--eri-color-background-terciary);
+}
+
+.searchImg {
+  width: 16px;
+  height: 16px;
+}
