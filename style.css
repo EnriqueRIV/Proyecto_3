@@ -186,7 +186,7 @@ h1 {
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   }
   .eri_logo > a > span,
-  .eri_li,
+  .eri_li_0,
   .eri_li_1,
   .eri-search-bar {
     display: none;
